@@ -1,0 +1,254 @@
+.title{
+  background: url('../img/title.png') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  }
+
+.bobot{
+  background: url('../img/bobot.png') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  }
+
+.magazine{
+  background: url('../img/magazine.png') 50% 50% no-repeat;
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  }
+
+.heap{
+  background: url('../img/heap.png') 50% 50% no-repeat;
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  }
+
+
+.nhoi{
+  background: url('../img/nhoi.png') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  }
+  .nhoi h1{
+    position: absolute;
+    top: 75px;
+    left: 110px;
+    font:normal 40px/50px 'PT Sans Caption',sans-serif;
+    }
+    .nhoi h1 b{
+      display: block;
+      font:normal 31px/36px 'PT Sans Caption',sans-serif;
+      }
+
+
+.gtfo{
+  background: url('../img/gtfo.png') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  }
+  .gtfo h1{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font:normal 170px/150px 'PT Sans Caption',sans-serif;
+    }
+    .gtfo h1 b{
+      display: block;
+      font:normal 42px/48px 'PT Sans Caption',sans-serif;
+      }
+
+[class*="-link"]{
+  text-transform: none;
+  text-decoration: none;
+}
+
+.site-link{
+  text-align: center;
+  padding-top: 40px;
+  }
+  article.site-link h1{
+    margin: 0;
+    text-transform: none;
+    font: 56px/64px 'PT Sans Caption',sans-serif;
+    }
+  .site-link img{
+    display: block;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    }
+
+.why h1{
+  font:normal 96px/110px 'PT Sans Caption',sans-serif;
+  display: inline-block;
+  }
+  .why h1 b{
+    font:normal 74px/100px 'PT Sans Caption',sans-serif;
+    display: block;
+    }
+
+.self h1{
+  font:normal 56px/72px 'PT Sans Caption',sans-serif;
+  }
+
+.two-parts h1{
+  font:normal 56px/72px 'PT Sans Caption',sans-serif;
+  display: inline-block;
+  }
+  .two-parts h1 b{
+    font:normal 88px/100px 'PT Sans Caption',sans-serif;
+    display: block;
+    }
+
+.word{
+  background-color: #00af11;
+  color: #fff;
+  text-shadow: 1px 1px 0 #01900f;
+  }
+  .word h1{
+    font:normal 120px/130px 'PT Sans Caption',sans-serif;
+    display: inline-block;
+    }
+    .word h1 i{
+      font:normal 85px/90px 'PT Sans Caption',sans-serif;
+      display: block;
+      }
+
+.author{
+  background-color: #ffcc00;
+  color: #fff;
+  text-shadow: 1px 1px 0 #ee9900;
+  }
+  .author h1{
+    font:normal 137px/150px 'PT Sans Caption',sans-serif;
+    display: inline-block;
+    }
+    .author h1 b{
+      font:normal 124px/140px 'PT Sans Caption',sans-serif;
+      display: block;
+      }
+
+.translator{
+  background-color: #ff9000;
+  color: #fff;
+  text-shadow: 1px 1px 0 #ca7200;
+  }
+  .translator h1{
+    font:normal 137px/150px 'PT Sans Caption',sans-serif;
+    display: inline-block;
+    }
+    .translator h1 b{
+      font:normal 72px/80px 'PT Sans Caption',sans-serif;
+      display: block;
+      }
+
+.sponsor{
+  background-color: #d00000;
+  color: #fff;
+  text-shadow: 1px 1px 0 #a00;
+  }
+  .sponsor h1{
+    font:normal 137px/150px 'PT Sans Caption',sans-serif;
+    display: inline-block;
+    }
+    .sponsor h1 b{
+      font:normal 94px/100px 'PT Sans Caption',sans-serif;
+      display: block;
+      }
+
+.benefit li{
+  margin 0 128px 30px;
+  }
+
+.from{
+    background: #000 url('../img/from.png') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  }
+.from h1{
+  white-space: nowrap;
+  background-color: #FFF;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  border-radius:800px;
+  line-height: 400px;
+  bottom: 100px;
+  right: 100px;
+  text-transform: none;
+  box-shadow:0 1px 0 2px rgba(0,0,0,.1);
+  font-size: 28px;
+  }
+  .from h1 .wrapper{
+    display: inline-block;
+    font:normal 36px/42px 'PT Sans Caption',sans-serif;
+    }
+  .from h1 b{
+    display: block;
+    font:normal 42px/48px 'PT Sans Caption',sans-serif;
+    }
+  .from h1:after{
+  content:".";
+  height: 0;
+  width: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  margin-bottom: -20px;
+  right: 10px;
+  bottom: 60px;
+  border-color:transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 20px 60px 20px 0;
+  -webkit-transform: rotate(-140deg);
+  }
+
+
+.self{
+    background: #000 url('../img/self.png') 50% 50% no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  }
+.self h1{
+  white-space: nowrap;
+  background-color: #FFF;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  border-radius:800px;
+  line-height: 400px;
+  bottom: 75px;
+  left: 75px;
+  text-transform: none;
+  box-shadow:0 1px 0 2px rgba(0,0,0,.1);
+  font-size: 28px;
+  font:normal 36px/400px 'PT Sans Caption',sans-serif;
+  }
+  .self h1:after{
+  content:".";
+  height: 0;
+  width: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  margin-bottom: -20px;
+  left: 10px;
+  bottom: 60px;
+  border-color:transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 20px 60px 20px 0;
+  -webkit-transform: rotate(320deg);
+  }
